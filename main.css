@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+
+  background-image: linear-gradient(#1d976c, #93f9b9);
+
+}
+
+.heading {
+  color: white;
+}
+
+.city-icon {
+  margin-top: 100px;
+  color: white;
+}
+
+.temperature {
+
+  margin-top: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.degree-section,
+h2 {
+
+  font-size: 40px;
+
+}
+
+
+.temperature-description {
+
+  font-size: 22px
+}
+
+.temperature-degree h2 {
+
+  margin-left: 5px;
+
+}
+
+.deg {
+
+  font-size: 30px;
+}

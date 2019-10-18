@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Forecast App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body class="wrapper">
+  <!-- container start -->
+  <div class="container">
+    <!-- heading section -->
+    <section class="heading">
+
+      <div class="text-center">
+        <h1 class="display-3">Weather Forecast</h1>
+      </div>
+
+    </section>
+
+    <!-- search bar section -->
+
+    <section class="search-location">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col mx-auto">
+            <form class="form-inline justify-content-center">
+              <div class="form-group justify-content-center">
+                <input type="text" id="city-search" class="form-control mx-sm-3 mt-3" placeholder="Enter City/Town">
+                <button id="getWeather" class="btn btn-light text-center mt-3">Get Weather</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of search bar section -->
+
+    <section class="city-icon">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mt-3 p-4">
+            <h3 class="city-choice"></h3>
+            <p class="timezone align-middle"></p>
+          </div>
+          <div class="col-md-6 text-center mt-3 pb-4">
+            <canvas class="icon" width="128" height="128"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Temperature section start -->
+    <section class="temperature">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="temperature-section col d-flex justify-content-center">
+            <h2 id="temperatureId" class="temperature-degree justify-content-center"></h2>
+            <div class="deg ml-3">F</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="temperature-summary mb-5">
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col text-center">
+            <div class="temperature-description text-white"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- container end  -->
+
+  <script type='text/javascript' src='config.js'></script>
+  <script src="skycons.js"></script>
+  <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
