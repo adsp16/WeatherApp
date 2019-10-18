@@ -1,0 +1,6 @@
+const config = {
+
+  WEATHER_API: '33979dcdd962c94eb6a528b5cd7bf714',
+  GOOGLE_API: 'AIzaSyCILKU9LwO6qKSWwTUCEhayOuYMeIXj4i0'
+
+}
